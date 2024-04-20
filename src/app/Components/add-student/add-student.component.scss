@@ -1,0 +1,64 @@
+.myForm {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .main-form-div {
+    width: 100%;
+  }
+  
+  .main-form-div h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .col-md-10 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .errTxt, .sucessTxt {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .text-danger {
+    color: #ff4d4d;
+  }
+  
+  .text-success {
+    color: #66cc66;
+  }
+  
+  .btn {
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #66cc66;
+  }
+  
